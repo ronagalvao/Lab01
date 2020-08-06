@@ -1,5 +1,5 @@
-# Lab01
-Tarefas referente a Aula 1
+# Laboratorios
+Espaço para armazenar aquivos dos laboratórios ao decorer do curso
 
 # Aluno
-Ronaldo Galvão - ex145138
+Ronaldo de Moraes Galvão - ex145138
