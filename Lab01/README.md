@@ -16,7 +16,7 @@ Acesse o diretório [Google Play Store](https://github.com/santanche/component2l
 
 * Imagem do projeto Google PlayStore:
 
-![Google](images/google-playstore-preparatio.png)
+![Google](images/google-playstore-preparation.png)
 
 
 * Graficos do projeto Google PlayStore:
