@@ -20,7 +20,12 @@ Acesse o diretório [Google Play Store](https://github.com/santanche/component2l
 
 
 * Graficos do projeto Google PlayStore:
+
 ![GoogleGraphs](images/food_vs_game.png)
+
+---
+
+![GoogleGraphs](images/food_vs_game_by_apps.png)
 
 * Link do arquivo do projeto Google PlayStore:
   * [Google PlayStore Preparation ](https://github.com/ronagalvao/Laboratorios/tree/master/Lab01/orange/)
