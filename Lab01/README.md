@@ -14,5 +14,6 @@ Acesse o diretório [Google Play Store](https://github.com/santanche/component2l
 
 ![Google](images/google-playstore-preparation.png)
 
+
 * Link do arquivo do projeto Google PlayStore do orange no Github
   * [Foodmart Association](https://github.com/ronagalvao/Laboratorios/tree/master/Lab01/orange/)
