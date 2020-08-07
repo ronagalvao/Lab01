@@ -1,6 +1,6 @@
 ## Tarefa 01: Regras de Associação Foodmart
 
-Acesse o diretório [orange/foodmart/](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/foodmart), que relaciona compras realizadas por clientes sobre produtos, e descubra regras de associação entre produtos. Como estes
+Acesse o diretório [Foodmart](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/foodmart), que relaciona compras realizadas por clientes sobre produtos, e descubra regras de associação entre produtos. Como estes
 dados poderiam ser explorados para recomendar produtos para clientes?
 
 
@@ -12,4 +12,6 @@ dados poderiam ser explorados para recomendar produtos para clientes?
 
 ## Tarefa Google Play Store
 
-Acesse o diretório [Ggoogle Play Store](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/google-playstore) e elabore algum projeto que apresente algum gráfico que permita uma análise interessante dos dados.
+Acesse o diretório [Google Play Store](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/google-playstore) e elabore algum projeto que apresente algum gráfico que permita uma análise interessante dos dados.
+
+![Google](images/google-playstore-preparation.png)
