@@ -4,6 +4,7 @@ Acesse o diretório [Foodmart](https://github.com/santanche/component2learn/tree
 dados poderiam ser explorados para recomendar produtos para clientes?
 
 * Imagem do projeto Foodmart:
+
 ![FoodMart](images/foodmart_associations.png)
 
 * Link do arquivo do projeto Foodmart:
