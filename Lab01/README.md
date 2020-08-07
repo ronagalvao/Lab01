@@ -16,4 +16,4 @@ Acesse o diretório [Google Play Store](https://github.com/santanche/component2l
 
 
 * Link do arquivo do projeto Google PlayStore do orange no Github
-  * [Google Play Store - Graphs](https://github.com/ronagalvao/Laboratorios/tree/master/Lab01/orange/)
+  * [Google PlayStore Preparation ](https://github.com/ronagalvao/Laboratorios/tree/master/Lab01/orange/)
