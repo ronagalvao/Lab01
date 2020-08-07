@@ -19,6 +19,9 @@ Acesse o diretório [Google Play Store](https://github.com/santanche/component2l
 ![Google](images/google-playstore-preparation.png)
 
 
+* Graficos do projeto Google PlayStore:
+![GoogleGraphs](images/food_vs_game.png)
+
 * Link do arquivo do projeto Google PlayStore:
   * [Google PlayStore Preparation ](https://github.com/ronagalvao/Laboratorios/tree/master/Lab01/orange/)
 
