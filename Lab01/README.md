@@ -10,7 +10,7 @@ dados poderiam ser explorados para recomendar produtos para clientes?
 
 ## Tarefa: Google Play Store
 
-Acesse o diretório [Google Play Store](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/google-playstor) e elabore algum projeto que apresente algum gráfico que permita uma análise interessante dos dados.
+Acesse o diretório [Google Play Store](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow/orange/google-playstore) e elabore algum projeto que apresente algum gráfico que permita uma análise interessante dos dados.
 
 ![Google](images/google-playstore-preparation.png)
 
