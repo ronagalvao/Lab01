@@ -41,7 +41,7 @@ Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as i
 
 * Imagem do diagrama de componente:
 
-![RecomendationDiagram](images/dataflow_AssociationProduct.png)
+![RecomendationDiagram](images/dataflow_AssociationProducts.png)
 ---
 ## Tarefa: Projeto de Composição de Pedido
 
