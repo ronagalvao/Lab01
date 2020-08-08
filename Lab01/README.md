@@ -42,9 +42,7 @@ Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as i
 * Imagem do diagrama de componente:
 
 ![RecomendationDiagram](images/dataflow_AssociationProducts.png)
-
 ---
-
 ## Tarefa: Projeto de Composição de Pedido
 
 Elabore um diagrama de composição de componentes que execute o fluxo de execução que vai desde o pedido de um produto até a sua entrega para o cliente.
