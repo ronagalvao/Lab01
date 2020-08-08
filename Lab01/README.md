@@ -39,6 +39,10 @@ Elabore um diagrama compondo componentes que seja capaz de executar o seguinte c
 
 Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as interfaces.
 
+* Imagem do diagrama:
+
+![GoogleGraphs](images/dataflow_RecomendationProducts.png)
+
 ## Tarefa: Projeto de Composição de Pedido
 
 Elabore um diagrama de composição de componentes que execute o fluxo de execução que vai desde o pedido de um produto até a sua entrega para o cliente.
