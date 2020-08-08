@@ -48,3 +48,8 @@ Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as i
 Elabore um diagrama de composição de componentes que execute o fluxo de execução que vai desde o pedido de um produto até a sua entrega para o cliente.
 
 Nesta tarefa, você deve detalhar as interfaces em um diagrama UML a parte.
+
+* Imagem do diagrama de componente:
+
+![RecomendationDiagram](images/dataflow_AssociationProducts.png)
+---
