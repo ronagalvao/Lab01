@@ -51,5 +51,8 @@ Nesta tarefa, você deve detalhar as interfaces em um diagrama UML a parte.
 
 * Imagem do diagrama de componente:
 
-![RecomendationDiagram](images/dataflow_AssociationProducts.png)
+![shopping_components](images/shopping_components.png)
 ---
+* Imagem do diagrama de classes:
+
+![shopping_classes_diagram](images/shopping_classes_diagram.png)
