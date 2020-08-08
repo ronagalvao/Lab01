@@ -39,9 +39,11 @@ Elabore um diagrama compondo componentes que seja capaz de executar o seguinte c
 
 Nesta tarefa, basta o diagrama de componentes, não é necessário detalhar as interfaces.
 
-* Imagem do diagrama:
+* Imagem do diagrama de componente:
 
 ![RecomendationDiagram](images/dataflow_AssociationProducts.png)
+
+---
 
 ## Tarefa: Projeto de Composição de Pedido
 
