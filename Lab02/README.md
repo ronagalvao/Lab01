@@ -1,3 +1,14 @@
+
+# Modelo para Apresentação do Lab02 - Data Flow & Mensagens
+
+Estrutura de pastas:
+
+~~~
+├── README.md  <- arquivo apresentando a tarefa
+│
+└── notebook   <- arquivo do notebook
+~~~
+
 # Data Flow e Componentes (parte 2)
 
 ## Tarefa Web Components 1
