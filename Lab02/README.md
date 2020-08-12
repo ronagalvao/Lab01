@@ -27,7 +27,7 @@ Crie três personagens (`doctor`, `nurse` e `patient`) usando o `<dcc-lively-tal
 * `patient` - mostra todas as notícias.
 
 
-### Composição de Componentes Web
+### Concepção dos Componentes Web
 
 _Para visualizar os componentes utilize o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/)._
 
