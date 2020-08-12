@@ -7,7 +7,7 @@ No diretório abaixo é possivel acessar a tarefa que foi desempenhada para ente
 ~~~
 └── notebook   <- arquivo do notebook
 ~~~
-[notebook jupyter](https://github.com/ronagalvao/Laboratorios/tree/master/Lab02/notebooks)
+[Jupyter Notebook](https://github.com/ronagalvao/Laboratorios/tree/master/Lab02/notebooks/components-01-catalog.ipynb)
 
 # Data Flow e Componentes (parte 2)
 
