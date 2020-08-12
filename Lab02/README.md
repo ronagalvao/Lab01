@@ -32,14 +32,38 @@ Crie três personagens (`doctor`, `nurse` e `patient`) usando o `<dcc-lively-tal
 _Para visualizar os componentes utilize o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/)._
 
 ~~~html
-<dcc-trigger id="mundo_politica" label="Mundo Politica" action="mundo/politica" value="<p>O candidato democrata à Presidência dos EUA, Joe Biden, anunciou na terça-feira (11/08) quem será sua companheira de chapa na disputa com Donald Trump no pleito de novembro.</p><p>Kamala Harris, senadora pela Califórnia, foi escolhida em uma lista que tinha estimado 13 nomes de mulheres, incluindo pesos-pesados, como a senadora e ex-pré-candidata Elizabeth Warren.</p>">
+<dcc-trigger id="mundo_politica" 
+   label="Mundo" 
+   action="noticia/mundo/politica" 
+   value="<p>O candidato democrata à Presidência dos EUA, Joe Biden, anunciou na 
+             terça-feira (11/08) quem será sua companheira de chapa na disputa com 
+             Donald Trump no pleito de novembro.
+          </p>
+           <p>Kamala Harris, senadora pela 
+             Califórnia, foi escolhida em uma lista que tinha estimado 13 nomes de 
+             mulheres, incluindo pesos-pesados, como a senadora e ex-pré-candidata 
+             Elizabeth Warren. <a href='https://www.bbc.com/portuguese/internacional- 
+             53745981' target='blank'>Ler mais...</a>">
+         </p>">
 </dcc-trigger>
 
-<dcc-lively-talk id="doctor"
-                 duration="0s"
-                 character="doctor"
-                 speech="<i>Notícias de Política do Brasil e no Mundo:</i>">
-  <subscribe-dcc topic="mundo/politica"></subscribe-dcc>
+<dcc-trigger id="brasil_politica" 
+   label="Brasil P" 
+   action="noticia/brasil/politica" 
+   value="<p><b>‘Debandada’: Por que auxiliares de Paulo Guedes estão abandonando o 
+                 governo Bolsonaro?</b>
+          </p>
+          <p><a href='https://www.bbc.com/portuguese/brasil-53754781' 
+                      target='blank'>Matéria completa...
+          </a</p>">
+</dcc-trigger>
+
+<dcc-lively-talk 
+   id="doctor"
+   duration="0s"
+   character="doctor"
+   speech="<i>Notícias de Política do Brasil e no Mundo:</i>">
+  <subscribe-dcc topic="noticia/+/politica"></subscribe-dcc>
 </dcc-lively-talk>
 ~~~
 
