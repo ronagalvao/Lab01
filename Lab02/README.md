@@ -51,19 +51,50 @@ _Para visualizar os componentes utilize o ambiente [DCC Playground](https://sant
    label="Brasil P" 
    action="noticia/brasil/politica" 
    value="<p><b>‘Debandada’: Por que auxiliares de Paulo Guedes estão abandonando o 
-                 governo Bolsonaro?</b>
-          </p>
+                 governo Bolsonaro?</b></p>
           <p><a href='https://www.bbc.com/portuguese/brasil-53754781' 
-                      target='blank'>Matéria completa...
-          </a</p>">
+                      target='blank'>Matéria completa...</a</p>">
+</dcc-trigger>
+
+<dcc-trigger id="brasil_esporte" 
+   label="Brasil E" 
+   action="noticia/brasil/esporte" 
+   value="<p><b>Acompanhe a tabela e os jogos do Brasileirão 2020...</b></p>
+          <p><a href='https://www.uol.com.br/esporte/futebol/campeonatos/brasileirao/' 
+                      target='blank'>Click aqui...</a</p>">
+</dcc-trigger>
+
+<dcc-trigger id="bahia" 
+   label="Bahia" 
+   action="noticia/bahia/esporte" 
+   value="<p><b>Ultimas noticias sobre esportes na Bahia...</b></p>
+          <p><a href='https://www.bahianoticias.com.br/esportes/' 
+                      target='blank'>Click aqui...</a</p>">
 </dcc-trigger>
 
 <dcc-lively-talk 
    id="doctor"
-   duration="0s"
+   duration="1s"
    character="doctor"
-   speech="<i>Notícias de Política do Brasil e no Mundo:</i>">
+   speech="<i>Notícias sobre política do Brasil e no Mundo:</i>">
   <subscribe-dcc topic="noticia/+/politica"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk 
+   id="nurse"
+   duration="2s"
+   character="nurse"
+   speech="<i>Notícias sobre o Brasil:</i>">
+   <subscribe-dcc topic="noticia/brasil/+"></subscribe-dcc>
+   <subscribe-dcc topic="noticia/bahia/esporte"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk 
+   id="patient"
+   duration="3s"
+   character="patient"
+   speech="<i>Todas as notícias, você encontra aqui:</i>">
+   <subscribe-dcc topic="noticia/#"></subscribe-dcc>
 </dcc-lively-talk>
 ~~~
 
