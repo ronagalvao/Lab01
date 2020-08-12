@@ -26,6 +26,25 @@ Crie três personagens (`doctor`, `nurse` e `patient`) usando o `<dcc-lively-tal
 * `nurse` - mostra notícias cuja região é o Brasil (independentemente do assunto);
 * `patient` - mostra todas as notícias.
 
+
+### Composição de Componentes Web
+
+_Para visualizar os componentes utilize o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/)._
+
+~~~html
+<dcc-trigger id="mundo_politica" label="Mundo Politica" action="mundo/politica" value="<p>O candidato democrata à Presidência dos EUA, Joe Biden, anunciou na terça-feira (11/08) quem será sua companheira de chapa na disputa com Donald Trump no pleito de novembro.</p><p>Kamala Harris, senadora pela Califórnia, foi escolhida em uma lista que tinha estimado 13 nomes de mulheres, incluindo pesos-pesados, como a senadora e ex-pré-candidata Elizabeth Warren.</p>">
+</dcc-trigger>
+
+<dcc-lively-talk id="doctor"
+                 duration="0s"
+                 character="doctor"
+                 speech="<i>Notícias de Política do Brasil e no Mundo:</i>">
+  <subscribe-dcc topic="mundo/politica"></subscribe-dcc>
+</dcc-lively-talk>
+~~~
+
+---
+
 ## Tarefa Web Components 2
 
 Crie dois componentes RSS usando o `<dcc-rss>` que assinem os canais:
