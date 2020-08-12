@@ -1,11 +1,10 @@
 
 # Lab02 - Data Flow & Mensagens
 
-Estrutura de pastas:
+## Tarefa sobre Components em Java
 
+No diretório abaixo é possivel acessar a tarefa que foi desempenhada para entender a conceito e utilização de componentes em java:
 ~~~
-├── README.md  <- arquivo apresentando a tarefa
-│
 └── notebook   <- arquivo do notebook
 ~~~
 
