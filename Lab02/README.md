@@ -112,3 +112,48 @@ Crie três personagens (`doctor`, `nurse` e `patient`) usando o `<dcc-lively-tal
 * `doctor` - mostra notícias agregadas de ciências;
 * `nurse` - mostra notícias de ciências;
 * `patient` - mostra notícias de design.
+
+
+### Concepção dos Componentes RSS Web 
+
+_Para visualizar os componentes utilize o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/)._
+
+~~~html
+<dcc-trigger label="Noticias <- clique aqui" action="next/rss"> 
+</dcc-trigger>
+
+<dcc-rss source="https://www.wired.com/category/science/feed" publish="rss/science">
+  <subscribe-dcc topic="next/rss" role="step"></subscribe-dcc>
+</dcc-rss>
+
+<dcc-rss source="https://www.wired.com/category/design/feed" publish="rss/design">
+  <subscribe-dcc topic="next/rss" role="step"></subscribe-dcc>
+</dcc-rss>
+
+<dcc-aggregator publish="aggregate/science" quantity="5">
+  <subscribe-dcc topic="rss/science"></subscribe-dcc>
+</dcc-aggregator>
+
+<dcc-lively-talk 
+    id="doctor"
+    character="doctor"
+    speech="<i>Lista de notícias sobre ciência:</i>">
+  <subscribe-dcc topic="aggregate/science"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk 
+    id="nurse"
+    character="nurse"
+    speech="<i>Notícia sobre ciência:</i>">
+  <subscribe-dcc topic="rss/science"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk 
+    id="patient"
+    character="patient"
+    speech="<i>Notícia sobre design:</i>">
+  <subscribe-dcc topic="rss/design"></subscribe-dcc>
+</dcc-lively-talk>
+~~~
+
+---
