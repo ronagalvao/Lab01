@@ -9,7 +9,7 @@ Considere a `Tarefa Projeto de Composição de Pedido`, que foi realizada no [La
 
 Represente esse processo na forma de um diagrama de atividades e ligue etapas desse diagrama com os componentes (do seu diagrama original) que executam as ações (Actions). Nesse processo, você pode enriquecer o fluxo da atividade, já que o diagrama te oferece primitivas de decisão e paralelização, bem como modificar os componentes que você projetou originalmente.
 
-![shoppingShip](images/shoppingShi.png)
+![shoppingShip](images/shoppingShip.png)
 
 ## Tarefa 2
 
