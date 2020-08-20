@@ -19,6 +19,8 @@ Usando a representação de componentes que se comunicam por mensagens na forma 
 3. os potenciais fornecedores fazem ofertas;
 4. Os três produtos com menor preço são apresentados para o cliente - em caso de empate de preço, considerar quem fez primeiro a oferta.
 
+![barramento](images/barramento.png)
+
 ## Tarefa 3
 
 Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inventor que simule uma interface de compra, com as seguintes funcionalidades:
