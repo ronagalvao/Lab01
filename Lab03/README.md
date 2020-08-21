@@ -36,7 +36,7 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
   * o valor unitário e a unidade (g, kg, l);
 3. quando o botão de efetivação da compra for clicado, deve ser mostrado no campo de mensagem (rodapé) os dados da compra sendo efetivada: nome do produto, quantidade e o valor total a ser pago.
 
-![tela](images/tela1_nenhum_produto selecionado.png)
+![tela](images/tela1.png)
 
 ## Tarefa 4
 
