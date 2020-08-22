@@ -43,7 +43,7 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
 
 ## Arquivo do App:
 
-![Arquivo .aia](https://github.com/ronagalvao/Laboratorios/blob/master/Lab03/app/GuitarPlace.aia)
+![app/GuitarPlace.aia](app/GuitarPlace.aia)
 
 ## Blocks do App:
 
@@ -52,5 +52,12 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
 ## Tarefa 4
 
 Tarefa a ser feita com a equipe do trabalho:
+Usando o espaço que separa o MVC, detalhe os diagramas das Tarefas 1 e 2, da seguinte maneira:
 
-![Git equipe eNove](https://github.com/eNove/unicamp-engsoft-2020-inf331)
+* considere que os diagramas que você fez fazem parte do Controller;
+* detalhe mais componentes referentes ao Model e ao View;
+* defina como será a interação entre esses componentes.
+
+### Repositório da Equipe
+
+- [eNove/unicamp-engsoft-2020-inf331 @ Github](https://github.com/eNove/unicamp-engsoft-2020-inf331)
