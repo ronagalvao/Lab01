@@ -43,6 +43,8 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
 
 ## Blocks do App:
 
+[Arquivo .aoa](https://github.com/ronagalvao/Laboratorios/blob/master/Lab03/app/GuitarPlace.aia)
+
 ![blocks](images/blocks.png)
 
 ## Tarefa 4
