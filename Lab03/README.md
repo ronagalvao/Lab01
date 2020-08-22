@@ -38,7 +38,7 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
 
 ![tela](images/telas.png)
 
-![tela](images/tela5.png)
+![tela](images/tela_selecao.png)
 
 ## Tarefa 4
 
