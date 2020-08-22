@@ -60,4 +60,4 @@ Usando o espaço que separa o MVC, detalhe os diagramas das Tarefas 1 e 2, da se
 
 ### Repositório da Equipe
 
-- [eNove/unicamp-engsoft-2020-inf331 @ Github](https://github.com/eNove/unicamp-engsoft-2020-inf331)
+- [eNove/unicamp-engsoft-2020-inf331 @ Github](https://github.com/eNove/unicamp-engsoft-2020-inf331/tree/master/lab03)
