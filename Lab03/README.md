@@ -43,7 +43,7 @@ Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inven
 
 ## Arquivo do App:
 
-![app/GuitarPlace.aia](app/GuitarPlace.aia)
+- [app/GuitarPlace.aia](app/GuitarPlace.aia)
 
 ## Blocks do App:
 
