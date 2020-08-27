@@ -66,6 +66,29 @@ X-Powered-By: ASP.NET
 * **Conteúdo da resposta**:
 ~~~json
 {
-"Title":"The Batman","Year":"2021","Rated":"N/A","Released":"01 Oct 2021","Runtime":"N/A","Genre":"Action, Crime, Drama","Director":"Matt Reeves","Writer":"Bill Finger (Batman created by), Bob Kane (Batman created by), Matt Reeves (screenplay), Mattson Tomlin (screenplay)","Actors":"Colin Farrell, Robert Pattinson, Zoë Kravitz, Paul Dano","Plot":"The plot is unknown.","Language":"English","Country":"USA","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BZjE4MTdhNGYtMjA1My00ODU1LTg0NzQtZDdiMmY0Y2E4NzY1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg","Ratings":[],"Metascore":"N/A","imdbRating":"N/A","imdbVotes":"N/A","imdbID":"tt1877830","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"
+"Title":"The Batman",
+"Year":"2021",
+"Rated":"N/A",
+"Released":"01 Oct 2021",
+"Runtime":"N/A",
+"Genre":"Action, Crime, Drama",
+"Director":"Matt Reeves",
+"Writer":"Bill Finger (Batman created by), Bob Kane (Batman created by), Matt Reeves (screenplay), Mattson Tomlin (screenplay)",
+"Actors":"Colin Farrell, Robert Pattinson, Zoë Kravitz, Paul Dano",
+"Plot":"The plot is unknown.",
+"Language":"English",
+"Country":"USA",
+"Awards":"N/A",
+"Poster":"https://m.media-amazon.com/images/M/MV5BZjE4MTdhNGYtMjA1My00ODU1LTg0NzQtZDdiMmY0Y2E4NzY1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg","Ratings":[],
+"Metascore":"N/A",
+"imdbRating":"N/A",
+"imdbVotes":"N/A",
+"imdbID":"tt1877830",
+"Type":"movie",
+"DVD":"N/A",
+"BoxOffice":"N/A",
+"Production":"N/A",
+"Website":"N/A",
+"Response":"True"
 }
 ~~~
