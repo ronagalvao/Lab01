@@ -11,15 +11,17 @@ Para as Tarefas 1, 2 e 3 que estão listadas dentro dos slides:
 
 ![componentes_de_negocio](images/componentes_de_negocio.png)
 
-## Tarefa 2
-*Componentes Técnicos*
+## Tarefa 2 - Componentes Técnicos View/Controller
 
-Separe os componentes do View daqueles definidos no Controller.
+* Separe os componentes do View daqueles definidos no Controller.
 
-## Tarefa 3
-*Componentes Técnicos*
+![componentes_tecnicos_01](images/componentes_tecnicos_01.png)
 
-Separe os componentes do Model daqueles definidos no Controller.
+## Tarefa 3 - Componentes Técnicos Model/Controller
+
+* Separe os componentes do Model daqueles definidos no Controller.
+
+![componentes_tecnicos_02](images/componentes_tecnicos_02.png)
 
 ## Tarefa 4
 
