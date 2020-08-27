@@ -27,55 +27,69 @@ Para as Tarefas 1, 2 e 3 que estão listadas dentro dos slides:
 
 Encontre dois serviços REST interessantes, que recebam no mínimo dois parâmetros e execute pelo menos uma consulta em cada um deles. Apresente para cada serviço que você escolheu:
 
-* **Título do serviço**: `XKCD`
+* **Título do serviço**: `The Open Movie Database`
 * **Breve descrição**:
-  Serviço que recebe o número de uma das tirinhas do XKCD e retorna os dados da tirinha e a URL para a sua imagem.
-* **URL completa da requisição**: `http://xkcd.com/35/info.0.json`
+  É um serviço onde é possivel obter informações sobre filmes e series
+* **URL completa da requisição**: `http://www.omdbapi.com/?t=Batman&y=2021`
 * **Cabeçalho HTTP da chamada**:
 ~~~http
-GET /http://xkcd.com/35/info.0.json HTTP/2
-Host: any-api.com:8443
-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:79.0) Gecko/20100101 Firefox/79.0
-Accept: */*
-Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
-Accept-Encoding: gzip, deflate, br
-Origin: https://any-api.com
+GET http://www.omdbapi.com/?t=Batman&y=2021
+Accept: text/plain, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: pt-BR,pt;q=0.9
 Connection: keep-alive
-Referer: https://any-api.com/xkcd_com/xkcd_com/console/_comicId_info_0_json/GET
+Cookie: __cfduid=da4a5d49ff73069651aa543ae06b4d11b1598489641; _ga=GA1.2.1231188162.1598489495; _gid=GA1.2.1972815141.1598489495
+Host: www.omdbapi.com
+Referer: http://www.omdbapi.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+X-Requested-With: XMLHttpRequest
 ~~~
 * **Cabeçalho HTTP da resposta**:
 ~~~http
-access-control-allow-origin: *
-age: 0
-cache-control: max-age=300
-content-encoding: br
-content-type: application/json
-date: Sat, 22 Aug 2020 20:22:49 GMT
-etag: W/"5f3f46c3-1e8"
-expires: Sat, 22 Aug 2020 20:27:49 GMT
-last-modified: Fri, 21 Aug 2020 04:00:03 GMT
-server: cloudflare
-vary: Accept-Encoding
-via: 1.1 varnish
-x-cache: MISS
-x-cache-hits: 0
-x-final-url: https://xkcd.com/35/info.0.json
-x-served-by: cache-pao17426-PAO
-x-timer: S1598127769.058105,VS0,VE255
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=86400
+CF-Cache-Status: MISS
+CF-RAY: 5c91dce28a1c09c8-GIG
+cf-request-id: 04cf086191000009c86898e200000001
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Thu, 27 Aug 2020 01:01:42 GMT
+Expires: Thu, 27 Aug 2020 02:01:42 GMT
+Last-Modified: Thu, 27 Aug 2020 01:01:42 GMT
+Server: cloudflare
+Transfer-Encoding: chunked
+Vary: *, Accept-Encoding
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
 ~~~
 * **Conteúdo da resposta**:
 ~~~json
 {
-  "month": "1",
-  "num": 35,
-  "link": "",
-  "year": "2006",
-  "news": "",
-  "safe_title": "Sheep",
-  "transcript": "Heading: Another from my high-school notebooks.\n[[A sheep and a potted saguaro cactus linked by an arcing yellow electricity bolt, drawn on graph paper]]\n{{title text: I think it's the sheep zapping the cactus and not vice-versa}}",
-  "alt": "I think it's the sheep zapping the cactus and not vice-versa",
-  "img": "https://imgs.xkcd.com/comics/sheep.jpg",
-  "title": "Sheep",
-  "day": "1"
+Actors: "Colin Farrell, Robert Pattinson, Zoë Kravitz, Paul Dano"
+Awards: "N/A"
+BoxOffice: "N/A"
+Country: "USA"
+DVD: "N/A"
+Director: "Matt Reeves"
+Genre: "Action, Crime, Drama"
+Language: "English"
+Metascore: "N/A"
+Plot: "The plot is unknown."
+Poster: "https://m.media-amazon.com/images/M/MV5BZjE4MTdhNGYtMjA1My00ODU1LTg0NzQtZDdiMmY0Y2E4NzY1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+Production: "N/A"
+Rated: "N/A"
+Ratings: []
+Released: "01 Oct 2021"
+Response: "True"
+Runtime: "N/A"
+Title: "The Batman"
+Type: "movie"
+Website: "N/A"
+Writer: "Bill Finger (Batman created by), Bob Kane (Batman created by), Matt Reeves (screenplay), Mattson Tomlin (screenplay)"
+Year: "2021"
+imdbID: "tt1877830"
+imdbRating: "N/A"
+imdbVotes: "N/A"
 }
 ~~~
