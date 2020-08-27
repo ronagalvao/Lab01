@@ -5,10 +5,11 @@ No link do Google Drive [modelo](https://docs.google.com/presentation/d/1ujoME3q
 
 Para as Tarefas 1, 2 e 3 que estão listadas dentro dos slides:
 
-## Tarefa 1
-*Componentes de Negócio*
+## Tarefa 1 - Componentes de Negócio
 
 Delimite partes do diagrama à esquerda que você avalia que deveriam estar dentro de um componente.
+
+![componentes_de_negocio](images/componentes_de_negocio.png)
 
 ## Tarefa 2
 *Componentes Técnicos*
