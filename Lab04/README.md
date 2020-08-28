@@ -99,7 +99,7 @@ Com base em princípios REST simples, os terminais da API da Web do Spotify reto
 * **URL completa da requisição**: `https://any-api.com:8443/https://api.spotify.com/v1/search?limit=1&offset=0&q=Stevie%20Ray%20Vaughan&type=artist`
 * **Cabeçalho HTTP da chamada**:
 ~~~http
-GET https://any-api.com:8443/https://api.spotify.com/v1/search?limit=1&offset=0&q=Stevie%20Ray%20Vaughan&type=artist
+GET https://api.spotify.com/v1/search
 access-control-allow-credentials: true
 access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context
 access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
