@@ -8,7 +8,7 @@ No link do Google Drive [modelo](https://docs.google.com/presentation/d/1M3eM98y
 
 * Escolha um conjunto de componentes do laboratório passado e os represente na forma de componentes com sub-componentes.
 
-![SubComponents](images/subcomponents_adjusted.png)
+![SubComponents](images/subcomponents.png)
 
 ## Tarefa 2
 
