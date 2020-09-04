@@ -6,7 +6,9 @@
 
 No link do Google Drive [modelo](https://docs.google.com/presentation/d/1M3eM98yVZDYqfIaVog8pRs8b7ckVjEwDBPQ-lJ_V18U/edit?usp=sharing) ou no diretório [resources/](resources/) você encontrará um modelo para resolver a tarefa:
 
-Escolha um conjunto de componentes do laboratório passado e os represente na forma de componentes com sub-componentes.
+* Escolha um conjunto de componentes do laboratório passado e os represente na forma de componentes com sub-componentes.
+
+![SubComponents](images/subcomponents.png)
 
 ## Tarefa 2
 
