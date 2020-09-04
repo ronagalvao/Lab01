@@ -12,6 +12,8 @@ Escolha um conjunto de componentes do laboratório passado e os represente na fo
 
 Crie uma conta no [Codepen](https://codepen.io/), copie o código do exemplo [React 03 - Componente Barra](https://codepen.io/santanche/pen/KKzmbwR) para a sua conta e construa um exemplo de componente adaptando o exemplo apresentado. Por se tratar de programação em JavaScript, podem ser feitas adaptações bastante simples.
 
+Link para o projeto no Codepen: [React 03 - Componente Colors](https://codepen.io/ronagalvao/pen/MWyOpwJ)
+
 > Código do componente:
 >
 **HTML**
@@ -25,7 +27,7 @@ html, body{
   display: flex;
   justify-content: center;
 }
-section#hello{
+section#RetColors{
   margion-top: 36px;
   padding-bottom: 36px;
   display: flex;
@@ -45,7 +47,7 @@ const colorArr = [
   "orange"
 ];
 
-class HelloWorld extends React.Component {
+class Colors extends React.Component {
   constructor(props){
     super(props);
     
@@ -96,7 +98,7 @@ class HelloWorld extends React.Component {
     };
       
     return(
-      <section style={styleObj} id="hello">
+      <section style={styleObj} id="RetColors">
         <h2 onClick={this.toggleColor.bind(this)}>{this.state.color}</h2>  
         <input value={this.state.color} onChange={this.changeColor.bind(this)}/>
       </section>
@@ -104,5 +106,5 @@ class HelloWorld extends React.Component {
   } 
 }
 
-ReactDOM.render(<HelloWorld name="Ronaldo" />, document.getElementById("app"));
+ReactDOM.render(<Colors name="Ronaldo" />, document.getElementById("app"));
 ~~~
